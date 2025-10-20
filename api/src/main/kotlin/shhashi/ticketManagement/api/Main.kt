@@ -8,17 +8,17 @@ import io.ktor.server.routing.routing
 import io.ktor.server.tomcat.jakarta.Tomcat
 
 fun main(args: Array<String>) {
-    embeddedServer(
-        Tomcat,
-        port = 8080,
-        module = Application::module,
-    ).start(wait = true)
+  embeddedServer(
+    Tomcat,
+    port = 8080,
+    module = Application::module,
+  ).start(wait = true)
 }
 
 fun Application.module() {
-    routing {
-        get("/") {
-            call.respondText("Hello World!")
-        }
+  routing {
+    get("/") {
+      call.respondText("Hello World!")
     }
+  }
 }

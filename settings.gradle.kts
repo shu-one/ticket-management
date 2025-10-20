@@ -3,13 +3,13 @@ rootProject.name = "ticket-management"
 include(":api")
 
 dependencyResolutionManagement {
-    repositories {
-        mavenCentral()
-    }
+  repositories {
+    mavenCentral()
+  }
 
-    versionCatalogs {
-        create("ktorLibs") {
-            from("io.ktor:ktor-version-catalog:3.3.1")
-        }
+  versionCatalogs {
+    create("ktorLibs") {
+      from("io.ktor:ktor-version-catalog:3.3.1")
     }
+  }
 }
