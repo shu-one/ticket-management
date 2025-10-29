@@ -2,7 +2,7 @@
 name: Refactoring
 about: リファクタリング
 title: "[REFACTORING]"
-labels: ''
+labels: refactoring
 assignees: ''
 
 ---
