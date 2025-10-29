@@ -1,6 +1,6 @@
 rootProject.name = "ticket-management"
 
-include(":api")
+include(":api", ":db:core:flyway")
 
 dependencyResolutionManagement {
   repositories {
