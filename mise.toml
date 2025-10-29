@@ -1,3 +1,6 @@
+[env]
+_.file = ".env"
+
 [tools]
 gradle = "9.1.0"
 java = "corretto-21.0.7.6.1"
