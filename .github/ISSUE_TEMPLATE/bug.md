@@ -2,7 +2,7 @@
 name: Bug
 about: 'バグ '
 title: "[HOTFIX]"
-labels: ''
+labels: bug
 assignees: ''
 
 ---
